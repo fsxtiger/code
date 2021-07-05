@@ -13,7 +13,6 @@ import java.util.List;
 
 public class MybatisDemo {
     public static void main(String[] args) throws Exception {
-//        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(Resources.getResourceAsStream("mybatis-config.xml"));
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(new FileInputStream("mybatis-config.xml"));
         try (SqlSession sqlSession = sqlSessionFactory.openSession(true)) {
             BlogMapper blogMapper = sqlSession.getMapper(BlogMapper.class);
