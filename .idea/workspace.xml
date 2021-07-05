@@ -11,85 +11,365 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/caffinitas/ohc/ohc-core/0.7.0/ohc-core-0.7.0-sources.jar!/org/caffinitas/ohc/OHCacheBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="761">
+              <caret line="162" column="13" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
+              <folding>
+                <element signature="e#12135#12136#0" expanded="true" />
+                <element signature="e#12180#12181#0" expanded="true" />
+                <element signature="e#13060#13061#0" expanded="true" />
+                <element signature="e#13091#13092#0" expanded="true" />
+                <element signature="e#13866#13867#0" expanded="true" />
+                <element signature="e#13901#13902#0" expanded="true" />
+                <element signature="e#17435#17436#0" expanded="true" />
+                <element signature="e#17464#17465#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/plugins/util/ExecutorUtil.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/plugins/main/PageInterceptor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ohCahe/OHCacheMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="388">
+              <caret line="33" column="62" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1553#1559#0" expanded="true" />
+                <element signature="e#2028#2034#0" expanded="true" />
+                <element signature="e#2610#2611#0" expanded="true" />
+                <element signature="e#2659#2660#0" expanded="true" />
+                <element signature="e#2704#2705#0" expanded="true" />
+                <element signature="e#2772#2773#0" expanded="true" />
+                <element signature="e#2810#2811#0" expanded="true" />
+                <element signature="e#2901#2902#0" expanded="true" />
+                <element signature="e#1712#1713#0" expanded="true" />
+                <element signature="e#1750#1751#0" expanded="true" />
+                <element signature="e#1825#1826#0" expanded="true" />
+                <element signature="e#1868#1869#0" expanded="true" />
+                <element signature="e#2008#2009#0" expanded="true" />
+                <element signature="e#2040#2041#0" expanded="true" />
+                <element signature="e#2080#2081#0" expanded="true" />
+                <element signature="e#2117#2118#0" expanded="true" />
+                <element signature="e#2185#2186#0" expanded="true" />
+                <element signature="e#2228#2229#0" expanded="true" />
+                <element signature="e#2283#2284#0" expanded="true" />
+                <element signature="e#2316#2317#0" expanded="true" />
+                <element signature="e#2466#2467#0" expanded="true" />
+                <element signature="e#2505#2506#0" expanded="true" />
+                <element signature="e#2575#2576#0" expanded="true" />
+                <element signature="e#2614#2615#0" expanded="true" />
+                <element signature="e#2677#2678#0" expanded="true" />
+                <element signature="e#2709#2710#0" expanded="true" />
+                <element signature="e#2850#2851#0" expanded="true" />
+                <element signature="e#2889#2890#0" expanded="true" />
+                <element signature="e#2954#2955#0" expanded="true" />
+                <element signature="e#2993#2994#0" expanded="true" />
+                <element signature="e#3055#3056#0" expanded="true" />
+                <element signature="e#3089#3090#0" expanded="true" />
+                <element signature="e#3221#3222#0" expanded="true" />
+                <element signature="e#3260#3261#0" expanded="true" />
+                <element signature="e#3333#3334#0" expanded="true" />
+                <element signature="e#3378#3379#0" expanded="true" />
+                <element signature="e#3435#3436#0" expanded="true" />
+                <element signature="e#3470#3471#0" expanded="true" />
+                <element signature="e#3618#3619#0" expanded="true" />
+                <element signature="e#3657#3658#0" expanded="true" />
+                <element signature="e#3716#3717#0" expanded="true" />
+                <element signature="e#3759#3760#0" expanded="true" />
+                <element signature="e#3829#3830#0" expanded="true" />
+                <element signature="e#3864#3865#0" expanded="true" />
+                <element signature="e#5490#5491#0" expanded="true" />
+                <element signature="e#5526#5527#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.4/mybatis-3.5.4-sources.jar!/org/apache/ibatis/plugin/Interceptor.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/nio/DirectByteBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="714">
+              <caret line="102" column="14" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
+              <folding>
+                <element signature="e#854#904#0" />
+                <element signature="e#1021#1094#0" />
+                <element signature="e#1337#2029#0" />
+                <element signature="e#1561#1770#0" />
+                <element signature="e#1780#2022#0" />
+                <element signature="e#1830#1897#1" />
+                <element signature="e#2131#2153#0" />
+                <element signature="e#2131#2988#0" />
+                <element signature="e#2486#2545#0" />
+                <element signature="e#2573#2650#0" />
+                <element signature="e#2735#2840#1" />
+                <element signature="e#2846#2885#1" />
+                <element signature="e#2996#3065#0" />
+                <element signature="e#2996#3306#0" />
+                <element signature="e#3313#3369#0" />
+                <element signature="e#3313#3533#0" />
+                <element signature="e#3541#3614#0" />
+                <element signature="e#3541#3930#0" />
+                <element signature="e#3938#3966#0" />
+                <element signature="e#3938#4280#0" />
+                <element signature="e#4286#4585#0" />
+                <element signature="e#4591#4970#0" />
+                <element signature="e#4976#5352#0" />
+                <element signature="e#5678#6409#0" />
+                <element signature="e#5807#6318#1" />
+                <element signature="e#6324#6379#1" />
+                <element signature="e#6417#6530#0" />
+                <element signature="e#6536#6655#0" />
+                <element signature="e#6661#7810#0" />
+                <element signature="e#6747#7439#1" />
+                <element signature="e#7465#7735#1" />
+                <element signature="e#7741#7780#1" />
+                <element signature="e#7816#8590#0" />
+                <element signature="e#7947#8499#1" />
+                <element signature="e#8505#8560#1" />
+                <element signature="e#8596#8923#0" />
+                <element signature="e#9233#9345#0" />
+                <element signature="e#9354#9565#0" />
+                <element signature="e#9408#9516#1" />
+                <element signature="e#9753#10018#0" />
+                <element signature="e#9822#9928#1" />
+                <element signature="e#9934#9988#1" />
+                <element signature="e#10024#10138#0" />
+                <element signature="e#10144#10266#0" />
+                <element signature="e#10272#12370#0" />
+                <element signature="e#10542#11483#1" />
+                <element signature="e#11489#12364#1" />
+                <element signature="e#12379#12595#0" />
+                <element signature="e#12435#12545#1" />
+                <element signature="e#12789#13059#0" />
+                <element signature="e#12860#12968#1" />
+                <element signature="e#12974#13029#1" />
+                <element signature="e#13065#13182#0" />
+                <element signature="e#13188#13313#0" />
+                <element signature="e#13319#15427#0" />
+                <element signature="e#13591#14536#1" />
+                <element signature="e#14542#15421#1" />
+                <element signature="e#15436#15642#0" />
+                <element signature="e#15488#15594#1" />
+                <element signature="e#15824#16084#0" />
+                <element signature="e#15891#15995#1" />
+                <element signature="e#16001#16054#1" />
+                <element signature="e#16090#16201#0" />
+                <element signature="e#16207#16326#0" />
+                <element signature="e#16332#18420#0" />
+                <element signature="e#16600#17537#1" />
+                <element signature="e#17543#18414#1" />
+                <element signature="e#18429#18640#0" />
+                <element signature="e#18483#18591#1" />
+                <element signature="e#18828#19093#0" />
+                <element signature="e#18897#19003#1" />
+                <element signature="e#19009#19063#1" />
+                <element signature="e#19099#19213#0" />
+                <element signature="e#19219#19341#0" />
+                <element signature="e#19347#21445#0" />
+                <element signature="e#19617#20558#1" />
+                <element signature="e#20564#21439#1" />
+                <element signature="e#21454#21686#0" />
+                <element signature="e#21510#21636#1" />
+                <element signature="e#21880#22169#0" />
+                <element signature="e#21951#22078#1" />
+                <element signature="e#22084#22139#1" />
+                <element signature="e#22175#22292#0" />
+                <element signature="e#22298#22423#0" />
+                <element signature="e#22429#24537#0" />
+                <element signature="e#22701#23646#1" />
+                <element signature="e#23652#24531#1" />
+                <element signature="e#24546#24786#0" />
+                <element signature="e#24604#24735#1" />
+                <element signature="e#24986#25283#0" />
+                <element signature="e#25059#25191#1" />
+                <element signature="e#25197#25253#1" />
+                <element signature="e#25289#25409#0" />
+                <element signature="e#25415#25543#0" />
+                <element signature="e#25549#27667#0" />
+                <element signature="e#25823#26772#1" />
+                <element signature="e#26778#27661#1" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/domain/Blog.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/plugins/main/PageHelper.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/mapper/BlogMapper.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/plugins/main/Page.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/MybatisDemo.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Cleaner.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="102">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/nio/MappedByteBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="272">
+              <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/DirectBuffer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/caffinitas/ohc/ohc-core/0.7.0/ohc-core-0.7.0-sources.jar!/org/caffinitas/ohc/OHCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="138" column="6" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar!/java/util/List.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#1795#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="474" column="11" selection-start-line="474" selection-start-column="11" selection-end-line="474" selection-end-column="11" />
+              <folding>
+                <element signature="e#19327#19328#0" expanded="true" />
+                <element signature="e#19410#19411#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+              <folding>
+                <element signature="docComment;class#Map#0" />
+                <element signature="docComment;method#size#0;class#Map#0" />
+                <element signature="docComment;method#isEmpty#0;class#Map#0" />
+                <element signature="docComment;method#containsKey#0;class#Map#0" />
+                <element signature="docComment;method#containsValue#0;class#Map#0" />
+                <element signature="docComment;method#get#0;class#Map#0" />
+                <element signature="docComment;method#put#0;class#Map#0" />
+                <element signature="docComment;method#remove#0;class#Map#0" />
+                <element signature="docComment;method#putAll#0;class#Map#0" />
+                <element signature="docComment;method#clear#0;class#Map#0" />
+                <element signature="docComment;method#keySet#0;class#Map#0" />
+                <element signature="docComment;method#values#0;class#Map#0" />
+                <element signature="docComment;method#entrySet#0;class#Map#0" />
+                <element signature="docComment;class#Entry#0;class#Map#0" />
+                <element signature="class#Entry#0;class#Map#0" />
+                <element signature="docComment;method#getKey#0;class#Entry#0;class#Map#0" />
+                <element signature="docComment;method#getValue#0;class#Entry#0;class#Map#0" />
+                <element signature="docComment;method#setValue#0;class#Entry#0;class#Map#0" />
+                <element signature="docComment;method#equals#0;class#Entry#0;class#Map#0" />
+                <element signature="docComment;method#hashCode#0;class#Entry#0;class#Map#0" />
+                <element signature="docComment;method#comparingByKey#0;class#Entry#0;class#Map#0" />
+                <element signature="method#comparingByKey#0;class#Entry#0;class#Map#0" />
+                <element signature="docComment;method#comparingByValue#0;class#Entry#0;class#Map#0" />
+                <element signature="method#comparingByValue#0;class#Entry#0;class#Map#0" />
+                <element signature="docComment;method#comparingByKey#1;class#Entry#0;class#Map#0" />
+                <element signature="method#comparingByKey#1;class#Entry#0;class#Map#0" />
+                <element signature="docComment;method#comparingByValue#1;class#Entry#0;class#Map#0" />
+                <element signature="method#comparingByValue#1;class#Entry#0;class#Map#0" />
+                <element signature="docComment;method#equals#0;class#Map#0" />
+                <element signature="docComment;method#hashCode#0;class#Map#0" />
+                <element signature="docComment;method#getOrDefault#0;class#Map#0" />
+                <element signature="method#getOrDefault#0;class#Map#0" />
+                <element signature="docComment;method#forEach#0;class#Map#0" />
+                <element signature="method#forEach#0;class#Map#0" />
+                <element signature="e#28632#29002#1" />
+                <element signature="e#28684#28773#0" />
+                <element signature="e#28807#28959#0" />
+                <element signature="docComment;method#replaceAll#0;class#Map#0" />
+                <element signature="method#replaceAll#0;class#Map#0" />
+                <element signature="e#31288#31972#1" />
+                <element signature="e#31340#31429#0" />
+                <element signature="e#31463#31615#0" />
+                <element signature="e#31726#31776#0" />
+                <element signature="e#31810#31962#0" />
+                <element signature="docComment;method#putIfAbsent#0;class#Map#0" />
+                <element signature="method#putIfAbsent#0;class#Map#0" />
+                <element signature="e#34213#34257#1" />
+                <element signature="docComment;method#remove#1;class#Map#0" />
+                <element signature="method#remove#1;class#Map#0" />
+                <element signature="e#36057#36094#1" />
+                <element signature="docComment;method#replace#0;class#Map#0" />
+                <element signature="method#replace#0;class#Map#0" />
+                <element signature="e#38358#38395#1" />
+                <element signature="docComment;method#replace#1;class#Map#0" />
+                <element signature="method#replace#1;class#Map#0" />
+                <element signature="e#40432#40483#1" />
+                <element signature="docComment;method#computeIfAbsent#0;class#Map#0" />
+                <element signature="method#computeIfAbsent#0;class#Map#0" />
+                <element signature="e#43422#43607#1" />
+                <element signature="e#43513#43597#1" />
+                <element signature="docComment;method#computeIfPresent#0;class#Map#0" />
+                <element signature="method#computeIfPresent#0;class#Map#0" />
+                <element signature="e#46102#46376#1" />
+                <element signature="e#46203#46287#1" />
+                <element signature="e#46293#46366#1" />
+                <element signature="e#46382#46418#1" />
+                <element signature="docComment;method#compute#0;class#Map#0" />
+                <element signature="method#compute#0;class#Map#0" />
+                <element signature="e#49371#49690#1" />
+                <element signature="e#49457#49569#1" />
+                <element signature="e#49575#49680#1" />
+                <element signature="e#49696#49810#1" />
+                <element signature="docComment;method#merge#0;class#Map#0" />
+                <element signature="method#merge#0;class#Map#0" />
+                <element signature="e#53108#53144#1" />
+                <element signature="e#53150#53193#1" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>edenSize</find>
+      <find>build</find>
+      <find>maxEntrySize</find>
+      <find>serializedSize</find>
+      <find>write failed</find>
+      <find>95330</find>
+      <find>70930</find>
+      <find>99990</find>
+      <find>0</find>
+      <find>y:0</find>
+      <find>1</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,35 +377,100 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/mybatis/MybatisDemo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/mybatis/plugins/main/PageInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/MybatisDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ohCahe/OHCacheDemo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/serialize/Explore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/serialize/SerializeCompare.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ohCahe/OHCacheMap.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="y" value="25" />
     <option name="width" value="1680" />
-    <option name="height" value="947" />
+    <option name="height" value="940" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="code" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="code" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="code" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="code" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="code" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="code" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="code" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="code" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="code" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="code" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mybatis" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="code" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="code" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ohCahe" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="code" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="code" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ohCahe" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="OHCacheDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RecentsManager">
@@ -145,6 +490,55 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Application.SerializeCompare">
+    <configuration name="Explore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serialize.Explore" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serialize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OHCacheDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ohCahe.OHCacheDemo" />
+      <module name="code" />
+      <option name="VM_PARAMETERS" value="-Xms512M -Xmx512M -XX:MaxDirectMemorySize=128M" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ohCahe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerializeCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serialize.SerializeCompare" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serialize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SerializeCompare" />
+        <item itemvalue="Application.Explore" />
+        <item itemvalue="Application.OHCacheDemo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
@@ -186,24 +580,43 @@
       <updated>1591706931145</updated>
       <workItem from="1591706935425" duration="481000" />
       <workItem from="1591707523429" duration="100000" />
+      <workItem from="1591707656241" duration="922000" />
+      <workItem from="1594789211358" duration="6000" />
+      <workItem from="1625469016907" duration="9021000" />
+      <workItem from="1625536997239" duration="2475000" />
+      <workItem from="1625553416672" duration="3555000" />
+      <workItem from="1625560572818" duration="2794000" />
+      <workItem from="1625734532405" duration="300000" />
+      <workItem from="1626088071405" duration="6000" />
+      <workItem from="1626768892959" duration="1334000" />
+      <workItem from="1627008097391" duration="2009000" />
+      <workItem from="1628475255173" duration="3131000" />
+      <workItem from="1628817611660" duration="10881000" />
+      <workItem from="1629366780186" duration="3237000" />
+      <workItem from="1629597457728" duration="631000" />
+      <workItem from="1629798142002" duration="596000" />
+      <workItem from="1630293238088" duration="18000" />
+      <workItem from="1630652073376" duration="734000" />
+      <workItem from="1635239315683" duration="7422000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="581000" />
+    <option name="totallyTimeSpent" value="49653000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="947" extended-state="0" />
+    <frame x="0" y="25" width="1680" height="940" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1892552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897863" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29334918" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36460808" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -212,9 +625,10 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32897863" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24969475" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="Database" order="5" />
@@ -224,16 +638,28 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/caffinitas/ohc/ohc-core/0.7.0/ohc-core-0.7.0-sources.jar!/org/caffinitas/ohc/linked/OHCacheLinkedImpl.java</url>
+          <line>285</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/plugins/main/PageInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="136">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/plugins/util/ExecutorUtil.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.4/mybatis-3.5.4-sources.jar!/org/apache/ibatis/plugin/Interceptor.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -254,13 +680,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/plugins/main/Page.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/MybatisDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -268,12 +687,795 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/plugins/main/PageInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/MybatisDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        <state relative-caret-position="187">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="565" column="10" selection-start-line="565" selection-start-column="10" selection-end-line="565" selection-end-column="10" />
+          <folding>
+            <element signature="e#20727#20728#0" expanded="true" />
+            <element signature="e#20771#20772#0" expanded="true" />
+            <element signature="e#36393#36394#0" expanded="true" />
+            <element signature="e#36459#36460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/io/ByteArrayOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+          <folding>
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/AbstractMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="142" column="41" selection-start-line="142" selection-start-column="38" selection-end-line="142" selection-end-column="41" />
+          <folding>
+            <element signature="docComment;class#AbstractMap#0" />
+            <element signature="docComment;method#AbstractMap#0;class#AbstractMap#0" />
+            <element signature="method#AbstractMap#0;class#AbstractMap#0" />
+            <element signature="docComment;method#size#0;class#AbstractMap#0" />
+            <element signature="docComment;method#isEmpty#0;class#AbstractMap#0" />
+            <element signature="docComment;method#containsValue#0;class#AbstractMap#0" />
+            <element signature="method#containsValue#0;class#AbstractMap#0" />
+            <element signature="e#3161#3334#1" />
+            <element signature="e#3195#3324#1" />
+            <element signature="e#3340#3521#1" />
+            <element signature="e#3374#3511#1" />
+            <element signature="docComment;method#containsKey#0;class#AbstractMap#0" />
+            <element signature="method#containsKey#0;class#AbstractMap#0" />
+            <element signature="e#4257#4428#1" />
+            <element signature="e#4291#4418#1" />
+            <element signature="e#4434#4611#1" />
+            <element signature="e#4468#4601#1" />
+            <element signature="docComment;method#get#0;class#AbstractMap#0" />
+            <element signature="method#get#0;class#AbstractMap#0" />
+            <element signature="e#5350#5529#1" />
+            <element signature="e#5384#5519#1" />
+            <element signature="e#5535#5720#1" />
+            <element signature="e#5569#5710#1" />
+            <element signature="docComment;method#put#0;class#AbstractMap#0" />
+            <element signature="docComment;method#remove#0;class#AbstractMap#0" />
+            <element signature="method#remove#0;class#AbstractMap#0" />
+            <element signature="e#7517#7715#1" />
+            <element signature="e#7573#7705#1" />
+            <element signature="e#7721#7925#1" />
+            <element signature="e#7777#7915#1" />
+            <element signature="e#7987#8070#1" />
+            <element signature="docComment;method#putAll#0;class#AbstractMap#0" />
+            <element signature="method#putAll#0;class#AbstractMap#0" />
+            <element signature="docComment;method#clear#0;class#AbstractMap#0" />
+            <element signature="docComment;field#keySet#0;class#AbstractMap#0" />
+            <element signature="docComment;method#keySet#0;class#AbstractMap#0" />
+            <element signature="method#keySet#0;class#AbstractMap#0" />
+            <element signature="e#11218#12346#1" />
+            <element signature="class#11241:12310" />
+            <element signature="method#iterator#0;class#11241:12310" />
+            <element signature="class#11339:11819" />
+            <element signature="docComment;method#values#0;class#AbstractMap#0" />
+            <element signature="method#values#0;class#AbstractMap#0" />
+            <element signature="e#13213#14356#1" />
+            <element signature="class#13238:14318" />
+            <element signature="method#iterator#0;class#13238:14318" />
+            <element signature="class#13343:13825" />
+            <element signature="docComment;method#equals#0;class#AbstractMap#0" />
+            <element signature="method#equals#0;class#AbstractMap#0" />
+            <element signature="e#15946#16456#0" />
+            <element signature="e#16040#16446#1" />
+            <element signature="e#16194#16318#1" />
+            <element signature="e#16324#16432#1" />
+            <element signature="e#16491#16528#0" />
+            <element signature="e#16565#16602#0" />
+            <element signature="docComment;method#hashCode#0;class#AbstractMap#0" />
+            <element signature="method#hashCode#0;class#AbstractMap#0" />
+            <element signature="docComment;method#toString#0;class#AbstractMap#0" />
+            <element signature="method#toString#0;class#AbstractMap#0" />
+            <element signature="e#18476#18861#1" />
+            <element signature="docComment;method#clone#0;class#AbstractMap#0" />
+            <element signature="method#clone#0;class#AbstractMap#0" />
+            <element signature="docComment;method#eq#0;class#AbstractMap#0" />
+            <element signature="e#19609#19669#0" />
+            <element signature="docComment;class#SimpleEntry#0;class#AbstractMap#0" />
+            <element signature="class#SimpleEntry#0;class#AbstractMap#0" />
+            <element signature="docComment;method#SimpleEntry#0;class#SimpleEntry#0;class#AbstractMap#0" />
+            <element signature="method#SimpleEntry#0;class#SimpleEntry#0;class#AbstractMap#0" />
+            <element signature="docComment;method#SimpleEntry#1;class#SimpleEntry#0;class#AbstractMap#0" />
+            <element signature="method#SimpleEntry#1;class#SimpleEntry#0;class#AbstractMap#0" />
+            <element signature="docComment;method#getKey#0;class#SimpleEntry#0;class#AbstractMap#0" />
+            <element signature="docComment;method#getValue#0;class#SimpleEntry#0;class#AbstractMap#0" />
+            <element signature="docComment;method#setValue#0;class#SimpleEntry#0;class#AbstractMap#0" />
+            <element signature="method#setValue#0;class#SimpleEntry#0;class#AbstractMap#0" />
+            <element signature="docComment;method#equals#0;class#SimpleEntry#0;class#AbstractMap#0" />
+            <element signature="method#equals#0;class#SimpleEntry#0;class#AbstractMap#0" />
+            <element signature="docComment;method#hashCode#0;class#SimpleEntry#0;class#AbstractMap#0" />
+            <element signature="method#hashCode#0;class#SimpleEntry#0;class#AbstractMap#0" />
+            <element signature="docComment;method#toString#0;class#SimpleEntry#0;class#AbstractMap#0" />
+            <element signature="docComment;class#SimpleImmutableEntry#0;class#AbstractMap#0" />
+            <element signature="class#SimpleImmutableEntry#0;class#AbstractMap#0" />
+            <element signature="docComment;method#SimpleImmutableEntry#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" />
+            <element signature="method#SimpleImmutableEntry#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" />
+            <element signature="docComment;method#SimpleImmutableEntry#1;class#SimpleImmutableEntry#0;class#AbstractMap#0" />
+            <element signature="method#SimpleImmutableEntry#1;class#SimpleImmutableEntry#0;class#AbstractMap#0" />
+            <element signature="docComment;method#getKey#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" />
+            <element signature="docComment;method#getValue#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" />
+            <element signature="docComment;method#setValue#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" />
+            <element signature="docComment;method#equals#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" />
+            <element signature="method#equals#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" />
+            <element signature="docComment;method#hashCode#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" />
+            <element signature="method#hashCode#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" />
+            <element signature="docComment;method#toString#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/ref/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="189" column="31" lean-forward="true" selection-start-line="189" selection-start-column="31" selection-end-line="189" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#11123#0" expanded="true" />
+            <element signature="e#8827#8828#0" expanded="true" />
+            <element signature="e#8889#8890#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/ref/PhantomReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/caffinitas/ohc/ohc-core/0.7.0/ohc-core-0.7.0-sources.jar!/org/caffinitas/ohc/chunked/OHCacheChunkedImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/caffinitas/ohc/ohc-core/0.7.0/ohc-core-0.7.0-sources.jar!/org/caffinitas/ohc/CacheSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/caffinitas/ohc/ohc-core/0.7.0/ohc-core-0.7.0-sources.jar!/org/caffinitas/ohc/linked/Murmur3Hash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/caffinitas/ohc/ohc-core/0.7.0/ohc-core-0.7.0-sources.jar!/org/caffinitas/ohc/OHCacheStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="docComment;class#Object#0" />
+            <element signature="initializer##0;class#Object#0" />
+            <element signature="docComment;method#getClass#0;class#Object#0" />
+            <element signature="docComment;method#equals#0;class#Object#0" />
+            <element signature="docComment;method#clone#0;class#Object#0" />
+            <element signature="docComment;method#toString#0;class#Object#0" />
+            <element signature="docComment;method#notify#0;class#Object#0" />
+            <element signature="docComment;method#notifyAll#0;class#Object#0" />
+            <element signature="docComment;method#wait#0;class#Object#0" />
+            <element signature="docComment;method#wait#1;class#Object#0" />
+            <element signature="method#wait#1;class#Object#0" />
+            <element signature="e#20682#20770#1" />
+            <element signature="e#20813#20946#1" />
+            <element signature="e#20971#21005#1" />
+            <element signature="docComment;method#wait#2;class#Object#0" />
+            <element signature="method#wait#2;class#Object#0" />
+            <element signature="docComment;method#finalize#0;class#Object#0" />
+            <element signature="method#finalize#0;class#Object#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/protostuff/protostuff-api/1.4.4/protostuff-api-1.4.4.jar!/io/protostuff/LinkedBuffer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/caffinitas/ohc/ohc-core/0.7.0/ohc-core-0.7.0-sources.jar!/org/caffinitas/ohc/linked/OHCacheLinkedImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3859">
+          <caret line="285" selection-start-line="285" selection-end-line="285" />
+          <folding>
+            <element signature="e#6940#6941#0" expanded="true" />
+            <element signature="e#7012#7013#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/caffinitas/ohc/ohc-core/0.7.0/ohc-core-0.7.0-sources.jar!/org/caffinitas/ohc/linked/OffHeapLinkedMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3077">
+          <caret line="231" column="37" selection-start-line="231" selection-start-column="37" selection-end-line="231" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/caffinitas/ohc/ohc-core/0.7.0/ohc-core-0.7.0-sources.jar!/org/caffinitas/ohc/linked/Hasher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/caffinitas/ohc/ohc-core/0.7.0/ohc-core-0.7.0-sources.jar!/org/caffinitas/ohc/linked/Uns.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4964">
+          <caret line="328" column="37" selection-start-line="328" selection-start-column="37" selection-end-line="328" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/caffinitas/ohc/ohc-core/0.7.0/ohc-core-0.7.0-sources.jar!/org/caffinitas/ohc/alloc/IAllocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/caffinitas/ohc/ohc-core/0.7.0/ohc-core-0.7.0-sources.jar!/org/caffinitas/ohc/linked/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding>
+            <element signature="e#3617#3618#0" expanded="true" />
+            <element signature="e#3686#3687#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/LoggerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4590">
+          <caret line="289" selection-start-line="289" selection-end-line="289" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3417">
+          <caret line="235" column="30" selection-start-line="235" selection-start-column="30" selection-end-line="235" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/Callable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="249" column="78" selection-start-line="249" selection-start-column="78" selection-end-line="249" selection-end-column="78" />
+          <folding>
+            <element signature="docComment;class#Executors#0" />
+            <element signature="docComment;method#newFixedThreadPool#0;class#Executors#0" />
+            <element signature="method#newFixedThreadPool#0;class#Executors#0" />
+            <element signature="docComment;method#newWorkStealingPool#0;class#Executors#0" />
+            <element signature="docComment;method#newWorkStealingPool#1;class#Executors#0" />
+            <element signature="method#newWorkStealingPool#1;class#Executors#0" />
+            <element signature="docComment;method#newFixedThreadPool#1;class#Executors#0" />
+            <element signature="docComment;method#newSingleThreadExecutor#0;class#Executors#0" />
+            <element signature="docComment;method#newSingleThreadExecutor#1;class#Executors#0" />
+            <element signature="docComment;method#newCachedThreadPool#0;class#Executors#0" />
+            <element signature="docComment;method#newCachedThreadPool#1;class#Executors#0" />
+            <element signature="docComment;method#newSingleThreadScheduledExecutor#0;class#Executors#0" />
+            <element signature="docComment;method#newSingleThreadScheduledExecutor#1;class#Executors#0" />
+            <element signature="method#newSingleThreadScheduledExecutor#1;class#Executors#0" />
+            <element signature="docComment;method#newScheduledThreadPool#0;class#Executors#0" />
+            <element signature="method#newScheduledThreadPool#0;class#Executors#0" />
+            <element signature="docComment;method#newScheduledThreadPool#1;class#Executors#0" />
+            <element signature="method#newScheduledThreadPool#1;class#Executors#0" />
+            <element signature="docComment;method#unconfigurableExecutorService#0;class#Executors#0" />
+            <element signature="method#unconfigurableExecutorService#0;class#Executors#0" />
+            <element signature="docComment;method#unconfigurableScheduledExecutorService#0;class#Executors#0" />
+            <element signature="method#unconfigurableScheduledExecutorService#0;class#Executors#0" />
+            <element signature="docComment;method#defaultThreadFactory#0;class#Executors#0" />
+            <element signature="docComment;method#privilegedThreadFactory#0;class#Executors#0" />
+            <element signature="docComment;method#callable#0;class#Executors#0" />
+            <element signature="method#callable#0;class#Executors#0" />
+            <element signature="docComment;method#callable#1;class#Executors#0" />
+            <element signature="method#callable#1;class#Executors#0" />
+            <element signature="docComment;method#callable#2;class#Executors#0" />
+            <element signature="method#callable#2;class#Executors#0" />
+            <element signature="docComment;method#callable#3;class#Executors#0" />
+            <element signature="method#callable#3;class#Executors#0" />
+            <element signature="docComment;method#privilegedCallable#0;class#Executors#0" />
+            <element signature="method#privilegedCallable#0;class#Executors#0" />
+            <element signature="docComment;method#privilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+            <element signature="method#privilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+            <element signature="docComment;class#RunnableAdapter#0;class#Executors#0" />
+            <element signature="class#RunnableAdapter#0;class#Executors#0" />
+            <element signature="method#RunnableAdapter#0;class#RunnableAdapter#0;class#Executors#0" />
+            <element signature="method#call#0;class#RunnableAdapter#0;class#Executors#0" />
+            <element signature="docComment;class#PrivilegedCallable#0;class#Executors#0" />
+            <element signature="class#PrivilegedCallable#0;class#Executors#0" />
+            <element signature="method#PrivilegedCallable#0;class#PrivilegedCallable#0;class#Executors#0" />
+            <element signature="method#call#0;class#PrivilegedCallable#0;class#Executors#0" />
+            <element signature="e#22395#22682#0" />
+            <element signature="e#22719#22774#0" />
+            <element signature="docComment;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+            <element signature="class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+            <element signature="method#PrivilegedCallableUsingCurrentClassLoader#0;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+            <element signature="e#23290#23818#1" />
+            <element signature="e#23308#23357#0" />
+            <element signature="e#23590#23648#0" />
+            <element signature="method#call#0;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+            <element signature="e#24044#24881#0" />
+            <element signature="e#24393#24476#1" />
+            <element signature="e#24482#24812#1" />
+            <element signature="e#24582#24673#0" />
+            <element signature="e#24682#24782#0" />
+            <element signature="e#24918#24973#0" />
+            <element signature="docComment;class#DefaultThreadFactory#0;class#Executors#0" />
+            <element signature="class#DefaultThreadFactory#0;class#Executors#0" />
+            <element signature="method#DefaultThreadFactory#0;class#DefaultThreadFactory#0;class#Executors#0" />
+            <element signature="method#newThread#0;class#DefaultThreadFactory#0;class#Executors#0" />
+            <element signature="docComment;class#PrivilegedThreadFactory#0;class#Executors#0" />
+            <element signature="class#PrivilegedThreadFactory#0;class#Executors#0" />
+            <element signature="method#PrivilegedThreadFactory#0;class#PrivilegedThreadFactory#0;class#Executors#0" />
+            <element signature="e#26521#26931#1" />
+            <element signature="e#26539#26588#0" />
+            <element signature="method#newThread#0;class#PrivilegedThreadFactory#0;class#Executors#0" />
+            <element signature="docComment;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#DelegatedExecutorService#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#execute#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#shutdown#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#shutdownNow#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#isShutdown#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#isTerminated#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#awaitTermination#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#invokeAll#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#invokeAll#1;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#invokeAny#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#invokeAny#1;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="class#FinalizableDelegatedExecutorService#0;class#Executors#0" />
+            <element signature="docComment;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+            <element signature="class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+            <element signature="method#DelegatedScheduledExecutorService#0;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+            <element signature="method#schedule#0;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+            <element signature="method#schedule#1;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+            <element signature="method#scheduleAtFixedRate#0;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+            <element signature="method#scheduleWithFixedDelay#0;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+            <element signature="docComment;method#Executors#0;class#Executors#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3774">
+          <caret line="263" column="32" selection-start-line="263" selection-start-column="32" selection-end-line="263" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/ForkJoinTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11016">
+          <caret line="696" column="33" selection-start-line="696" selection-start-column="33" selection-end-line="696" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/ForkJoinPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44200">
+          <caret line="2660" column="31" selection-start-line="2660" selection-start-column="31" selection-end-line="2660" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19465">
+          <caret line="1183" column="26" selection-start-line="1183" selection-start-column="26" selection-end-line="1183" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/RecursiveTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="93" column="17" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/serialize/Explore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/serialize/SerializeCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ohCahe/OHCacheDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="97" column="25" selection-start-line="89" selection-start-column="39" selection-end-line="97" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="972" column="16" selection-start-line="972" selection-start-column="16" selection-end-line="972" selection-end-column="16" />
+          <folding>
+            <element signature="e#36752#36753#0" expanded="true" />
+            <element signature="e#36786#36787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/nio/ByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="1519" column="31" selection-start-line="1519" selection-start-column="31" selection-end-line="1519" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+          <folding>
+            <element signature="docComment;class#Map#0" />
+            <element signature="docComment;method#size#0;class#Map#0" />
+            <element signature="docComment;method#isEmpty#0;class#Map#0" />
+            <element signature="docComment;method#containsKey#0;class#Map#0" />
+            <element signature="docComment;method#containsValue#0;class#Map#0" />
+            <element signature="docComment;method#get#0;class#Map#0" />
+            <element signature="docComment;method#put#0;class#Map#0" />
+            <element signature="docComment;method#remove#0;class#Map#0" />
+            <element signature="docComment;method#putAll#0;class#Map#0" />
+            <element signature="docComment;method#clear#0;class#Map#0" />
+            <element signature="docComment;method#keySet#0;class#Map#0" />
+            <element signature="docComment;method#values#0;class#Map#0" />
+            <element signature="docComment;method#entrySet#0;class#Map#0" />
+            <element signature="docComment;class#Entry#0;class#Map#0" />
+            <element signature="class#Entry#0;class#Map#0" />
+            <element signature="docComment;method#getKey#0;class#Entry#0;class#Map#0" />
+            <element signature="docComment;method#getValue#0;class#Entry#0;class#Map#0" />
+            <element signature="docComment;method#setValue#0;class#Entry#0;class#Map#0" />
+            <element signature="docComment;method#equals#0;class#Entry#0;class#Map#0" />
+            <element signature="docComment;method#hashCode#0;class#Entry#0;class#Map#0" />
+            <element signature="docComment;method#comparingByKey#0;class#Entry#0;class#Map#0" />
+            <element signature="method#comparingByKey#0;class#Entry#0;class#Map#0" />
+            <element signature="docComment;method#comparingByValue#0;class#Entry#0;class#Map#0" />
+            <element signature="method#comparingByValue#0;class#Entry#0;class#Map#0" />
+            <element signature="docComment;method#comparingByKey#1;class#Entry#0;class#Map#0" />
+            <element signature="method#comparingByKey#1;class#Entry#0;class#Map#0" />
+            <element signature="docComment;method#comparingByValue#1;class#Entry#0;class#Map#0" />
+            <element signature="method#comparingByValue#1;class#Entry#0;class#Map#0" />
+            <element signature="docComment;method#equals#0;class#Map#0" />
+            <element signature="docComment;method#hashCode#0;class#Map#0" />
+            <element signature="docComment;method#getOrDefault#0;class#Map#0" />
+            <element signature="method#getOrDefault#0;class#Map#0" />
+            <element signature="docComment;method#forEach#0;class#Map#0" />
+            <element signature="method#forEach#0;class#Map#0" />
+            <element signature="e#28632#29002#1" />
+            <element signature="e#28684#28773#0" />
+            <element signature="e#28807#28959#0" />
+            <element signature="docComment;method#replaceAll#0;class#Map#0" />
+            <element signature="method#replaceAll#0;class#Map#0" />
+            <element signature="e#31288#31972#1" />
+            <element signature="e#31340#31429#0" />
+            <element signature="e#31463#31615#0" />
+            <element signature="e#31726#31776#0" />
+            <element signature="e#31810#31962#0" />
+            <element signature="docComment;method#putIfAbsent#0;class#Map#0" />
+            <element signature="method#putIfAbsent#0;class#Map#0" />
+            <element signature="e#34213#34257#1" />
+            <element signature="docComment;method#remove#1;class#Map#0" />
+            <element signature="method#remove#1;class#Map#0" />
+            <element signature="e#36057#36094#1" />
+            <element signature="docComment;method#replace#0;class#Map#0" />
+            <element signature="method#replace#0;class#Map#0" />
+            <element signature="e#38358#38395#1" />
+            <element signature="docComment;method#replace#1;class#Map#0" />
+            <element signature="method#replace#1;class#Map#0" />
+            <element signature="e#40432#40483#1" />
+            <element signature="docComment;method#computeIfAbsent#0;class#Map#0" />
+            <element signature="method#computeIfAbsent#0;class#Map#0" />
+            <element signature="e#43422#43607#1" />
+            <element signature="e#43513#43597#1" />
+            <element signature="docComment;method#computeIfPresent#0;class#Map#0" />
+            <element signature="method#computeIfPresent#0;class#Map#0" />
+            <element signature="e#46102#46376#1" />
+            <element signature="e#46203#46287#1" />
+            <element signature="e#46293#46366#1" />
+            <element signature="e#46382#46418#1" />
+            <element signature="docComment;method#compute#0;class#Map#0" />
+            <element signature="method#compute#0;class#Map#0" />
+            <element signature="e#49371#49690#1" />
+            <element signature="e#49457#49569#1" />
+            <element signature="e#49575#49680#1" />
+            <element signature="e#49696#49810#1" />
+            <element signature="docComment;method#merge#0;class#Map#0" />
+            <element signature="method#merge#0;class#Map#0" />
+            <element signature="e#53108#53144#1" />
+            <element signature="e#53150#53193#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="474" column="11" selection-start-line="474" selection-start-column="11" selection-end-line="474" selection-end-column="11" />
+          <folding>
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar!/java/util/List.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1795#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/caffinitas/ohc/ohc-core/0.7.0/ohc-core-0.7.0-sources.jar!/org/caffinitas/ohc/OHCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="138" column="6" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/DirectBuffer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/nio/MappedByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Cleaner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/nio/DirectByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="102" column="14" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
+          <folding>
+            <element signature="e#854#904#0" />
+            <element signature="e#1021#1094#0" />
+            <element signature="e#1337#2029#0" />
+            <element signature="e#1561#1770#0" />
+            <element signature="e#1780#2022#0" />
+            <element signature="e#1830#1897#1" />
+            <element signature="e#2131#2153#0" />
+            <element signature="e#2131#2988#0" />
+            <element signature="e#2486#2545#0" />
+            <element signature="e#2573#2650#0" />
+            <element signature="e#2735#2840#1" />
+            <element signature="e#2846#2885#1" />
+            <element signature="e#2996#3065#0" />
+            <element signature="e#2996#3306#0" />
+            <element signature="e#3313#3369#0" />
+            <element signature="e#3313#3533#0" />
+            <element signature="e#3541#3614#0" />
+            <element signature="e#3541#3930#0" />
+            <element signature="e#3938#3966#0" />
+            <element signature="e#3938#4280#0" />
+            <element signature="e#4286#4585#0" />
+            <element signature="e#4591#4970#0" />
+            <element signature="e#4976#5352#0" />
+            <element signature="e#5678#6409#0" />
+            <element signature="e#5807#6318#1" />
+            <element signature="e#6324#6379#1" />
+            <element signature="e#6417#6530#0" />
+            <element signature="e#6536#6655#0" />
+            <element signature="e#6661#7810#0" />
+            <element signature="e#6747#7439#1" />
+            <element signature="e#7465#7735#1" />
+            <element signature="e#7741#7780#1" />
+            <element signature="e#7816#8590#0" />
+            <element signature="e#7947#8499#1" />
+            <element signature="e#8505#8560#1" />
+            <element signature="e#8596#8923#0" />
+            <element signature="e#9233#9345#0" />
+            <element signature="e#9354#9565#0" />
+            <element signature="e#9408#9516#1" />
+            <element signature="e#9753#10018#0" />
+            <element signature="e#9822#9928#1" />
+            <element signature="e#9934#9988#1" />
+            <element signature="e#10024#10138#0" />
+            <element signature="e#10144#10266#0" />
+            <element signature="e#10272#12370#0" />
+            <element signature="e#10542#11483#1" />
+            <element signature="e#11489#12364#1" />
+            <element signature="e#12379#12595#0" />
+            <element signature="e#12435#12545#1" />
+            <element signature="e#12789#13059#0" />
+            <element signature="e#12860#12968#1" />
+            <element signature="e#12974#13029#1" />
+            <element signature="e#13065#13182#0" />
+            <element signature="e#13188#13313#0" />
+            <element signature="e#13319#15427#0" />
+            <element signature="e#13591#14536#1" />
+            <element signature="e#14542#15421#1" />
+            <element signature="e#15436#15642#0" />
+            <element signature="e#15488#15594#1" />
+            <element signature="e#15824#16084#0" />
+            <element signature="e#15891#15995#1" />
+            <element signature="e#16001#16054#1" />
+            <element signature="e#16090#16201#0" />
+            <element signature="e#16207#16326#0" />
+            <element signature="e#16332#18420#0" />
+            <element signature="e#16600#17537#1" />
+            <element signature="e#17543#18414#1" />
+            <element signature="e#18429#18640#0" />
+            <element signature="e#18483#18591#1" />
+            <element signature="e#18828#19093#0" />
+            <element signature="e#18897#19003#1" />
+            <element signature="e#19009#19063#1" />
+            <element signature="e#19099#19213#0" />
+            <element signature="e#19219#19341#0" />
+            <element signature="e#19347#21445#0" />
+            <element signature="e#19617#20558#1" />
+            <element signature="e#20564#21439#1" />
+            <element signature="e#21454#21686#0" />
+            <element signature="e#21510#21636#1" />
+            <element signature="e#21880#22169#0" />
+            <element signature="e#21951#22078#1" />
+            <element signature="e#22084#22139#1" />
+            <element signature="e#22175#22292#0" />
+            <element signature="e#22298#22423#0" />
+            <element signature="e#22429#24537#0" />
+            <element signature="e#22701#23646#1" />
+            <element signature="e#23652#24531#1" />
+            <element signature="e#24546#24786#0" />
+            <element signature="e#24604#24735#1" />
+            <element signature="e#24986#25283#0" />
+            <element signature="e#25059#25191#1" />
+            <element signature="e#25197#25253#1" />
+            <element signature="e#25289#25409#0" />
+            <element signature="e#25415#25543#0" />
+            <element signature="e#25549#27667#0" />
+            <element signature="e#25823#26772#1" />
+            <element signature="e#26778#27661#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/caffinitas/ohc/ohc-core/0.7.0/ohc-core-0.7.0-sources.jar!/org/caffinitas/ohc/OHCacheBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="162" column="13" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
+          <folding>
+            <element signature="e#12135#12136#0" expanded="true" />
+            <element signature="e#12180#12181#0" expanded="true" />
+            <element signature="e#13060#13061#0" expanded="true" />
+            <element signature="e#13091#13092#0" expanded="true" />
+            <element signature="e#13866#13867#0" expanded="true" />
+            <element signature="e#13901#13902#0" expanded="true" />
+            <element signature="e#17435#17436#0" expanded="true" />
+            <element signature="e#17464#17465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ohCahe/OHCacheMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="33" column="62" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1553#1559#0" expanded="true" />
+            <element signature="e#2028#2034#0" expanded="true" />
+            <element signature="e#2610#2611#0" expanded="true" />
+            <element signature="e#2659#2660#0" expanded="true" />
+            <element signature="e#2704#2705#0" expanded="true" />
+            <element signature="e#2772#2773#0" expanded="true" />
+            <element signature="e#2810#2811#0" expanded="true" />
+            <element signature="e#2901#2902#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
+            <element signature="e#1750#1751#0" expanded="true" />
+            <element signature="e#1825#1826#0" expanded="true" />
+            <element signature="e#1868#1869#0" expanded="true" />
+            <element signature="e#2008#2009#0" expanded="true" />
+            <element signature="e#2040#2041#0" expanded="true" />
+            <element signature="e#2080#2081#0" expanded="true" />
+            <element signature="e#2117#2118#0" expanded="true" />
+            <element signature="e#2185#2186#0" expanded="true" />
+            <element signature="e#2228#2229#0" expanded="true" />
+            <element signature="e#2283#2284#0" expanded="true" />
+            <element signature="e#2316#2317#0" expanded="true" />
+            <element signature="e#2466#2467#0" expanded="true" />
+            <element signature="e#2505#2506#0" expanded="true" />
+            <element signature="e#2575#2576#0" expanded="true" />
+            <element signature="e#2614#2615#0" expanded="true" />
+            <element signature="e#2677#2678#0" expanded="true" />
+            <element signature="e#2709#2710#0" expanded="true" />
+            <element signature="e#2850#2851#0" expanded="true" />
+            <element signature="e#2889#2890#0" expanded="true" />
+            <element signature="e#2954#2955#0" expanded="true" />
+            <element signature="e#2993#2994#0" expanded="true" />
+            <element signature="e#3055#3056#0" expanded="true" />
+            <element signature="e#3089#3090#0" expanded="true" />
+            <element signature="e#3221#3222#0" expanded="true" />
+            <element signature="e#3260#3261#0" expanded="true" />
+            <element signature="e#3333#3334#0" expanded="true" />
+            <element signature="e#3378#3379#0" expanded="true" />
+            <element signature="e#3435#3436#0" expanded="true" />
+            <element signature="e#3470#3471#0" expanded="true" />
+            <element signature="e#3618#3619#0" expanded="true" />
+            <element signature="e#3657#3658#0" expanded="true" />
+            <element signature="e#3716#3717#0" expanded="true" />
+            <element signature="e#3759#3760#0" expanded="true" />
+            <element signature="e#3829#3830#0" expanded="true" />
+            <element signature="e#3864#3865#0" expanded="true" />
+            <element signature="e#5490#5491#0" expanded="true" />
+            <element signature="e#5526#5527#0" expanded="true" />
           </folding>
         </state>
       </provider>
