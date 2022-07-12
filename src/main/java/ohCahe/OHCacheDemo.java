@@ -32,9 +32,9 @@ public class OHCacheDemo {
         }
     };
 
-    public static CacheSerializer<Big> bigCacheSerializer = new CacheSerializer<Big>() {
+    public static CacheSerializer<Float[]> bigCacheSerializer = new CacheSerializer<Float[]>() {
         @Override
-        public void serialize(Big value, ByteBuffer buf) {
+        public void serialize(Float[] value, ByteBuffer buf) {
             try {
                 ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
                 ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
@@ -49,13 +49,13 @@ public class OHCacheDemo {
         }
 
         @Override
-        public Big deserialize(ByteBuffer buf) {
+        public Float[] deserialize(ByteBuffer buf) {
             byte[] bytes = new byte[buf.remaining()];
             buf.get(bytes);
             try {
                 ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(bytes);
                 ObjectInputStream objectInputStream = new ObjectInputStream(byteArrayInputStream);
-                Big big = (Big)objectInputStream.readObject();
+                Float[] big = (Float[]) objectInputStream.readObject();
                 objectInputStream.close();
                 byteArrayInputStream.close();
                 return big;
@@ -66,7 +66,7 @@ public class OHCacheDemo {
         }
 
         @Override
-        public int serializedSize(Big value) {
+        public int serializedSize(Float[] value) {
             try {
                 ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
                 ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
@@ -87,7 +87,7 @@ public class OHCacheDemo {
 
 
     public static void main(String[] args) {
-        OHCache<String, Big> ohCache = OHCacheBuilder.<String, Big>newBuilder()
+        OHCache<String, Float[]> ohCache = OHCacheBuilder.<String, Float[]>newBuilder()
                 .keySerializer(stringCacheSerializer)
                 .valueSerializer(bigCacheSerializer)
                 //单位是byte，需要自己计算大小, 设置成20M
@@ -97,17 +97,29 @@ public class OHCacheDemo {
                 .throwOOME(true)
                 .build();
 
-        ohCache.put("007", new Big("007"));
-        ohCache.get("007").setName("008");
+        Float[] floats = new Float[768];
+        floats[0] = 1.0f;
+        floats[1] = 2.0f;
+        floats[2] = 3.0f;
 
-        System.out.println(ohCache.get("007"));
+
+        ohCache.put("007", floats);
+//        ohCache.get("007").setName("008");
+
+        System.out.println(ohCache.get("007")[0]);
     }
 }
 
 
 class Big implements Serializable {
     private String name;
-    private byte[] bytes = new byte[1024 * 1024 * 3];
+    private Float[] bytes = new Float[768];
+
+    {
+        bytes[0] = 1.0f;
+        bytes[1] = 2.0f;
+        bytes[2] = 3.0f;
+    }
 
     public Big(String name) {
         this.name = name;
@@ -117,6 +129,7 @@ class Big implements Serializable {
     public String toString() {
         return "Big{" +
                 "name='" + name + '\'' +
+                "bytes[0]" + bytes[0] +
                 '}';
     }
 

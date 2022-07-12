@@ -14,6 +14,17 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+class FloatWrapper {
+    String name = "fsx";
+
+    @Override
+    public String toString() {
+        return "FloatWrapper{" +
+                "name='" + name + '\'' +
+                '}';
+    }
+}
+
 public class OHCacheMap<K, V> extends AbstractMap<K, V> {
     private OHCache<K, V> ohCache;
     private static Map<Class, CacheSerializer> clazzToCacheSerializer = new HashMap<>();
@@ -86,6 +97,15 @@ public class OHCacheMap<K, V> extends AbstractMap<K, V> {
     @Override
     public Set<Entry<K, V>> entrySet() {
         return null;
+    }
+
+
+
+    public static void main(String[] args) {
+        OHCacheMap map = new OHCacheMap(167772160, Eviction.NONE, true, String.class, FloatWrapper.class);
+        map.put("abc", new FloatWrapper());
+
+        System.out.println(map.get("abc"));
     }
 }
 
