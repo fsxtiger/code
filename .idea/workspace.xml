@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4f73e0c-a781-4382-b69f-dd9bedb7249c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mysql/tree/TreeBuild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-generator-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mybatis/mapper/BlogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mybatis/mapper/BlogMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ohCahe/OHCacheDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ohCahe/OHCacheDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ohCahe/OHCacheMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ohCahe/OHCacheMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serialize/Explore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serialize/SerializeCompare.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/Big.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ohCahe/Big.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/OHCacheDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ohCahe/OHCacheDemo$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/OHCacheDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ohCahe/OHCacheDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/serialize/Explore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/serialize/Explore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/serialize/SerializeCompare.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/serialize/SerializeCompare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/serialize/SumTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/serialize/SumTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/serialize/TrieNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/serialize/TrieNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-isolute/src/main/java/kafka/DefaultBatchInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-isolute/src/main/java/kafka/DefaultBatchInterceptor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +103,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectFrameBounds">
     <option name="y" value="25" />
     <option name="width" value="1680" />
@@ -154,24 +142,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/shuoxuanfang/IDeaProject/private/code/kafka-isolute/src/main/java"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kafka-isolute/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
@@ -236,6 +218,7 @@
         <option name="myRunnerSettings" />
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
+            <option name="cmdOptions" />
             <option name="profiles">
               <set />
             </option>
@@ -247,6 +230,9 @@
             <option name="pomFileName" value="pom.xml" />
             <option name="profilesMap">
               <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$" />

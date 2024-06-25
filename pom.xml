@@ -7,6 +7,10 @@
     <groupId>code</groupId>
     <artifactId>code</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>kafka-isolute</module>
+    </modules>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
