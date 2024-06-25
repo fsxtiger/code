@@ -5,23 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4f73e0c-a781-4382-b69f-dd9bedb7249c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mysql/tree/TreeBuild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-generator-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-isolute/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-isolute/src/main/java/kafka/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-isolute/src/main/java/kafka/DefaultAnnotationEnhancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-isolute/src/main/java/kafka/DefaultBatchInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-isolute/src/main/java/kafka/DefaultRecordInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-isolute/src/main/java/kafka/EnableGlspKafka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-isolute/src/main/java/kafka/GlspKafKaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-isolute/src/main/java/kafka/GlspKafkaTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-isolute/src/main/java/kafka/exception/GlspMqRuntimeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mybatis/mapper/BlogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mybatis/mapper/BlogMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ohCahe/OHCacheDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ohCahe/OHCacheDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ohCahe/OHCacheMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ohCahe/OHCacheMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serialize/Explore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serialize/SerializeCompare.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/Big.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ohCahe/Big.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/OHCacheDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ohCahe/OHCacheDemo$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/OHCacheDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ohCahe/OHCacheDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/serialize/Explore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/serialize/Explore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/serialize/SerializeCompare.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/serialize/SerializeCompare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/serialize/SumTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/serialize/SumTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/serialize/TrieNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/serialize/TrieNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-generator-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/MybatisDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/domain/Blog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mapper/BlogMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/plugins/main/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/plugins/main/PageHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/plugins/main/PageInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/plugins/util/ExecutorUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/Big.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/Charserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/DoubleSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/FloatSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/FloatWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/IntSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/LongSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/OHCacheDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/OHCacheDemo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/OHCacheDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/OHCacheMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/ObjectSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/ShortSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ohCahe/StringSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/serialize/Explore$Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/serialize/Explore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/serialize/SerializeCompare$A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/serialize/SerializeCompare$B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/serialize/SerializeCompare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/serialize/SumTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/serialize/TrieNode.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +145,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectFrameBounds">
     <option name="y" value="25" />
     <option name="width" value="1680" />
@@ -154,24 +184,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/shuoxuanfang/IDeaProject/private/code/kafka-isolute/src/main/java"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kafka-isolute/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
@@ -236,6 +260,7 @@
         <option name="myRunnerSettings" />
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
+            <option name="cmdOptions" />
             <option name="profiles">
               <set />
             </option>
@@ -247,6 +272,9 @@
             <option name="pomFileName" value="pom.xml" />
             <option name="profilesMap">
               <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$" />
