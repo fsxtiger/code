@@ -1,0 +1,48 @@
+syntax = "proto3";
+import "google/protobuf/wrappers.proto";
+
+package cn.golingo.glep.complex.grpc.client.competition.model;
+option java_multiple_files = true;
+
+message CompetitionQueryModel {
+    int32 current=1;
+    int32 size=2;
+    string competitionName=3;
+    string competitionStatus=4;
+    string courseNo=5;
+}
+
+message CompetitionCreateModel {
+    string competitionName=1;
+    string languages=2;
+    string competitionType=3;
+    string competitionLevel=4;
+}
+
+message StringModel {
+    string value=1;
+    int32 hash=2;
+    int64 serialVersionUID=3;
+    string serialPersistentFields=4;
+    string CASE_INSENSITIVE_ORDER=5;
+}
+
+message CompetitionPageDTO {
+    int64 total=1;
+    repeated CompetitionDTO competitionDTOs=2;
+}
+
+message CompetitionDTO {
+    string competitionNo=1;
+    string competitionName=2;
+    string languages=3;
+    int64 registrationStartTime=4;
+    int64 registrationEndTime=5;
+    int64 competitionStartTime=6;
+    int64 competitionEndTime=7;
+    string competitionStatus=8;
+    int64 createTime=9;
+    int64 updateTime=10;
+    int64 resultPublishTime=11;
+}
+

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+import "CompetitionModel.proto";
+
+service CompetitionService {
+    rpc list(cn.golingo.glep.complex.grpc.client.competition.model.CompetitionQueryModel) returns (cn.golingo.glep.complex.grpc.client.competition.model.CompetitionPageDTO);
+    rpc create(cn.golingo.glep.complex.grpc.client.competition.model.CompetitionCreateModel) returns (cn.golingo.glep.complex.grpc.client.competition.model.CompetitionDTO);
+    rpc getCompetitionNum(cn.golingo.glep.complex.grpc.client.competition.model.String) returns (cn.golingo.glep.complex.grpc.client.competition.model.CompetitionDTO);
+}

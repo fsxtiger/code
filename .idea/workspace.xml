@@ -5,8 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4f73e0c-a781-4382-b69f-dd9bedb7249c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/code-generator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/java/FreemakerGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/java/bo/MessageField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/java/bo/MethodInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/java/bo/ProtoMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/java/bo/ProtoParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/java/bo/ServiceParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/java/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/java/generator/AbstractCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/java/generator/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/java/generator/DownStreamModelProtoFileCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/java/generator/DownStreamServiceCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/java/generator/DownStreamServiceProtoCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/java/generator/UpStreamConvertCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/java/generator/UpStreamRemoteServiceCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/java/generator/UpStreamRemoteServiceImplCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/java/generator/UpStreamServiceCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/java/generator/UpStreamServiceImplCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/resources/templates/DownStreamModelProto.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/resources/templates/DownStreamService.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/resources/templates/DownStreamServiceProto.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/resources/templates/UpStreamConvert.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/resources/templates/UpStreamRemoteService.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/resources/templates/UpStreamRemoteServiceImpl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/resources/templates/UpStreamServiceImpl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-generator/src/main/resources/templates/UpstreamService.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/textDraw.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/textDraw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/WebmCompositeVideoClip.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediaPython/src/WebmCompositeVideoClip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/WebmVideoFileClip.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediaPython/src/WebmVideoFileClip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/textDraw.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediaPython/src/textDraw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/webm_ffmpeg_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediaPython/src/webm_ffmpeg_reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/webm_ffmpeg_writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediaPython/src/webm_ffmpeg_writer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +56,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Python Script" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -143,78 +177,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/shuoxuanfang/IDeaProject/private/code/script&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/shuoxuanfang/IDeaProject/private/code/code-generator/src/main/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2816092"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/script" />
-      <recent name="$PROJECT_DIR$/kafka-isolute/src/main/java" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/code-generator/src/main/java" />
+      <recent name="$PROJECT_DIR$/code-generator/src/main/java/generator" />
+      <recent name="$PROJECT_DIR$/code-generator/src/main/java/demo" />
+      <recent name="$PROJECT_DIR$/code-generator/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/mediaPython/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/code-generator/src/main/resources/templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SerializeCompare">
-    <configuration name="Explore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="serialize.Explore" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="serialize.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Maven.code-generator [compile]">
+    <configuration name="Blockchain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blockchain" />
+      <module name="code-generator" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OHCacheDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ohCahe.OHCacheDemo" />
-      <module name="code" />
-      <option name="VM_PARAMETERS" value="-Xms512M -Xmx512M -XX:MaxDirectMemorySize=128M" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ohCahe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <module name="hw-obs" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OHCacheMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ohCahe.OHCacheMap" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ohCahe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <module name="code-generator" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializeCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="serialize.SerializeCompare" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="serialize.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="FreemakerGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FreemakerGenerator" />
+      <module name="code-generator" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="code [mybatis-generator:generate]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+    <configuration name="code-generator [compile]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -226,7 +242,7 @@
             </option>
             <option name="goals">
               <list>
-                <option value="mybatis-generator:generate" />
+                <option value="compile" />
               </list>
             </option>
             <option name="pomFileName" value="pom.xml" />
@@ -237,7 +253,7 @@
               <list />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/code-generator" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -245,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SerializeCompare" />
-        <item itemvalue="Application.OHCacheDemo" />
-        <item itemvalue="Application.OHCacheMap" />
-        <item itemvalue="Maven.code [mybatis-generator:generate]" />
-        <item itemvalue="Application.Explore" />
+        <item itemvalue="Maven.code-generator [compile]" />
+        <item itemvalue="Application.Demo (1)" />
+        <item itemvalue="Application.Blockchain" />
+        <item itemvalue="Application.FreemakerGenerator" />
+        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>

@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>kafka-isolute</module>
+        <module>code-generator</module>
     </modules>
 
     <dependencies>
@@ -43,7 +44,6 @@
             <artifactId>protostuff-runtime</artifactId>
             <version>1.4.4</version>
         </dependency>
-
     </dependencies>
 
     <build>
