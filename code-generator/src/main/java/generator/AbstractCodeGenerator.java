@@ -1,7 +1,7 @@
 package generator;
 
-import com.google.common.collect.ImmutableMap;
 import config.Config;
+import com.google.common.collect.ImmutableMap;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 
@@ -17,7 +17,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import static config.Config.METHODS;
-
 
 /**
  * @Author shuoxuan.fang

@@ -3,6 +3,7 @@ package generator;
 import bo.MethodInfo;
 import bo.ServiceParam;
 import config.Config;
+import org.apache.commons.lang3.StringUtils;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
@@ -36,8 +37,12 @@ public class DownStreamServiceProtoCodeGenerator extends UpStreamServiceCodeGene
                 returnValue = Config.IMPORT_GRPC_MODEL_PATH_PREFIX + transformReturnValueToGrpc(methodInfo.getReturnValue(), Config.GRPC_EMPTY);
             }
             String param = methodInfo.getParam();
-            param = param.split(" ")[0];
-            param = Config.IMPORT_GRPC_MODEL_PATH_PREFIX + transformParamToGrpc(param);
+            if (StringUtils.isNotBlank(param)) {
+                param = param.split(" ")[0];
+                param = Config.IMPORT_GRPC_MODEL_PATH_PREFIX + transformParamToGrpc(param);
+            } else {
+                param = Config.GRPC_EMPTY;
+            }
             newMethodInfos.add(new MethodInfo(returnValue, name, param));
         }
 

@@ -1,11 +1,11 @@
 package generator;
 
+import cn.unipus.glsp.base.wrapper.PageQueryWrapper;
 import bo.MessageField;
 import bo.ProtoMessage;
 import bo.ProtoParam;
-import cn.unipus.glsp.base.wrapper.PageQueryWrapper;
-import com.google.common.collect.Lists;
 import config.Config;
+import com.google.common.collect.Lists;
 import org.apache.commons.lang3.StringUtils;
 import reactor.util.function.Tuple2;
 import reactor.util.function.Tuples;

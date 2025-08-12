@@ -1,9 +1,10 @@
 package generator;
 
-import java.lang.reflect.Method;
-import java.util.List;
 import bo.ServiceParam;
 import config.Config;
+
+import java.lang.reflect.Method;
+import java.util.List;
 
 /**
  * @Author shuoxuan.fang

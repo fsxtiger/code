@@ -10,11 +10,11 @@ import java.util.List;
  * @Date 2025/4/14
  **/
 public class Config {
-    public static final String NAME = "CompetitionNotice";
-    public static final String SERVICE_PATH = "cn.golingo.glep.education.provider.service.";
+    public static final String NAME = "Auth";
+    public static final String SERVICE_PATH = "cn.golingo.glep.admin.provider.service.";
     public static final String SERVICE_FULL_PATH = SERVICE_PATH + Config.NAME + "Service";
-    public static final String REMOTE_SERVICE_PATH = "cn.golingo.glep.education.provider.remote.";
-    public static final String DOWN_STREAM_SERVICE_NAME = "Complex";
+    public static final String REMOTE_SERVICE_PATH = "cn.golingo.glep.admin.provider.remote.";
+    public static final String DOWN_STREAM_SERVICE_NAME = "User";
 
     public static final String REMOTE_SERVICE_FULL_PATH = REMOTE_SERVICE_PATH + "Remote" + DOWN_STREAM_SERVICE_NAME + "Service";
 
@@ -26,9 +26,9 @@ public class Config {
     );
 
     public static final List<String> MAP_STRUCT_IMPORTS = Lists.newArrayList(
-            "javax.annotation.Resource", "org.springframework.stereotype.Service"
+            "org.mapstruct.*"
     );
-    public static final String CLASS_NAME = "cn.golingo.glep.education.controller.teacher.competition.CompetitionNoticeController";
+    public static final String CLASS_NAME = "cn.golingo.glep.admin.controller.audit.AuditTalentController";
 
     public static final String FULL_GRPC_PATH = "cn.golingo.glep." + StringUtils.uncapitalize(Config.DOWN_STREAM_SERVICE_NAME) + ".grpc.client.service." + Config.NAME + "ServiceGrpc";
     public static final String FULL_CONVERT_PATH = "cn.golingo.glep.education.provider.convert." + Config.NAME + "Convert";

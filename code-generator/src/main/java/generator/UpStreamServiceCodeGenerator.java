@@ -61,7 +61,10 @@ public class UpStreamServiceCodeGenerator extends AbstractCodeGenerator<ServiceP
         String methodName = normalize(parts[2].substring(0, parts[2].indexOf("(")));
 
         String paramContent = parseCurvesContent(genericString);
-        String paramString = normalizeMethodString(paramContent, method, 0);
+        String paramString = "";
+        if (StringUtils.isNotBlank(paramContent)) {
+            paramString = normalizeMethodString(paramContent, method, 0);
+        }
 
         MethodInfo methodInfo = new MethodInfo();
         methodInfo.setName(methodName);

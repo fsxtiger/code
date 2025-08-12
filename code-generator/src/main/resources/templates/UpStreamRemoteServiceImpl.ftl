@@ -22,12 +22,16 @@ public class Remote${serviceName}GrpcServiceImpl implements Remote${serviceName}
 <#list methods as method>
     @Override
     public ${method.returnValue} ${method.name}(${method.param}) {
+    <#assign paramArray = method.param?split(" ")>
+    <#assign secondParam = "" />
+    <#if paramArray?size gt 1>
+        <#assign secondParam = paramArray[1]>
+    </#if>
     <#if method.returnValue == 'void'>
-        ${uncapitalize_name}ServiceBlockingStub.${method.name}(${method.param});
+        ${uncapitalize_name}ServiceBlockingStub.${method.name}(${secondParam});
     <#else>
-        return ${uncapitalize_name}ServiceBlockingStub.${method.name}(${method.param});
+        return ${uncapitalize_name}ServiceBlockingStub.${method.name}(${secondParam});
     </#if>
     }
-
 </#list>
 }

@@ -41,10 +41,10 @@ public class UpStreamConvertCodeGenerator extends UpStreamServiceCodeGenerator {
         }
         List<String> addedImportPath = new ArrayList<>();
         for (MethodInfo methodInfo : methodInfos) {
-            if (methodInfo.getName().equalsIgnoreCase(Config.PARAM_TO_MODEL)) {
+            if (methodInfo.getName().equalsIgnoreCase(Config.PARAM_TO_MODEL) && StringUtils.isNotBlank(methodInfo.getReturnValue())) {
                 addedImportPath.add(Config.IMPORT_GRPC_MODEL_PATH_PREFIX + methodInfo.getReturnValue());
             }
-            if (methodInfo.getParam().equalsIgnoreCase(Config.DTO_TO_VO)) {
+            if (methodInfo.getName().equalsIgnoreCase(Config.DTO_TO_VO) && StringUtils.isNotBlank(methodInfo.getParam())) {
                 addedImportPath.add(Config.IMPORT_GRPC_MODEL_PATH_PREFIX + methodInfo.getParam().split(" ")[0]);
             }
         }
@@ -63,12 +63,18 @@ public class UpStreamConvertCodeGenerator extends UpStreamServiceCodeGenerator {
             if (Objects.nonNull(returnMethodInfo)) {
                 newMethodInfos.add(returnMethodInfo);
             }
-            newMethodInfos.add(parseInputParam(methodInfo));
+            MethodInfo inputMethodInfo = parseInputParam(methodInfo);
+            if (Objects.nonNull(inputMethodInfo)) {
+                newMethodInfos.add(parseInputParam(methodInfo));
+            }
         }
         return newMethodInfos;
     }
 
     private MethodInfo parseInputParam(MethodInfo param) {
+        if (StringUtils.isBlank(param.getParam())) {
+            return null;
+        }
         return new MethodInfo(param.getParamModel(), Config.PARAM_TO_MODEL, param.getParam());
     }
 
@@ -82,9 +88,9 @@ public class UpStreamConvertCodeGenerator extends UpStreamServiceCodeGenerator {
         }
         String newReturnValue = returnValue.replace("VO", "DTO");
         newReturnValue = newReturnValue.replace("Vo", "DTO");
-        String param = composeParam(returnValue);
+        String param = composeParam(newReturnValue);
 
-        return new MethodInfo(param, Config.DTO_TO_VO, newReturnValue);
+        return new MethodInfo(returnValue, Config.DTO_TO_VO, param);
     }
 
     private String composeParam(String returnValue) {

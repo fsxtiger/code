@@ -13,12 +13,17 @@ public class ${name}ServiceImpl implements ${name}Service {
     @Resource
     private Remote${serviceName}Service remote${serviceName}Service;
     @Resource
-    private ${name}Convert ${uncapitalize_name}Convert
+    private ${name}Convert ${uncapitalize_name}Convert;
 
     <#list methods as method>
     @Override
     public ${method.returnValue} ${method.name}(${method.param}) {
-
+        ${method.paramModel} ${method.paramModel?uncap_first} = ${uncapitalize_name}Convert.paramToModel(${method.param});
+    <#if method.returnValue != 'void'>
+        return remote${serviceName}Service.${method.name}(${method.paramModel});
+    <#else>
+        remote${serviceName}Service.${method.name}(${method.paramModel})
+    </#if>
     }
     </#list>
 }
