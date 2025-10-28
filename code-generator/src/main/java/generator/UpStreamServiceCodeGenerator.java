@@ -71,13 +71,32 @@ public class UpStreamServiceCodeGenerator extends AbstractCodeGenerator<ServiceP
         methodInfo.setReturnValue(returnValue);
         methodInfo.setParam(paramString);
         methodInfo.setParamModel(getParamModelName(paramString, methodName));
+        methodInfo.setParamDTO(getParamDTOName(paramString, methodName, returnValue));
 
         return methodInfo;
     }
 
+    protected String getParamDTOName(String param, String methodName, String returnValue) {
+        String className = param.split(" ")[0];
+        if (TYPE_MAP.containsKey(className) || StringUtils.isBlank(param)) {
+            // 是基本类型，走另外的方式
+            String name = methodName;
+            name = name.replace("get", "");
+            name = name.replace("query", "");
+            return WordUtils.capitalize(name) + "DTO";
+        } if (returnValue.contains("PageResultWrapper")) {
+            String name = parseAngleContent(returnValue);
+            name = name.replace("VO", "PageVO");
+
+            return name;
+        } else {
+            return className.replace("Param", "DTO");
+        }
+    }
+
     protected String getParamModelName(String param, String methodName) {
         String className = param.split(" ")[0];
-        if (TYPE_MAP.containsKey(className)) {
+        if (TYPE_MAP.containsKey(className) || StringUtils.isBlank(param)) {
             // 是基本类型，走另外的方式
             return WordUtils.capitalize(methodName) + "Model";
         } else {
@@ -169,6 +188,11 @@ public class UpStreamServiceCodeGenerator extends AbstractCodeGenerator<ServiceP
             if (requestParam != null && StringUtils.isNotBlank(requestParam.value())) {
                 return requestParam.value();
             }
+            io.swagger.v3.oas.annotations.Parameter parameter1 = parameter.getAnnotation(io.swagger.v3.oas.annotations.Parameter.class);
+            if (parameter1 != null && StringUtils.isNotBlank(parameter1.name())) {
+                return parameter1.name();
+            }
+            return param;
         }
         int end = param.length();
         if (param.contains("<")) {

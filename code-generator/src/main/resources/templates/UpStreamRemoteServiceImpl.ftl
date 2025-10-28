@@ -26,6 +26,8 @@ public class Remote${serviceName}GrpcServiceImpl implements Remote${serviceName}
     <#assign secondParam = "" />
     <#if paramArray?size gt 1>
         <#assign secondParam = paramArray[1]>
+    <#else>
+        <#assign secondParam = "Empty.getDefaultInstance()">
     </#if>
     <#if method.returnValue == 'void'>
         ${uncapitalize_name}ServiceBlockingStub.${method.name}(${secondParam});

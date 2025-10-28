@@ -31,6 +31,5 @@ public class FreemakerGenerator {
         for (CodeGenerator codeGenerator : codeGenerators) {
             codeGenerator.generateCode();
         }
-
     }
 }

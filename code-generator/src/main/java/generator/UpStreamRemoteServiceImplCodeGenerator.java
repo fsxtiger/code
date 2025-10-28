@@ -5,6 +5,7 @@ import config.Config;
 
 import java.lang.reflect.Method;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 /**
@@ -19,11 +20,19 @@ public class UpStreamRemoteServiceImplCodeGenerator extends UpStreamRemoteServic
         importPaths.add(Config.REMOTE_SERVICE_FULL_PATH);
         importPaths.addAll(Config.BEAN_ANNOTATIONS_IMPORTS);
         importPaths.add(Config.FULL_GRPC_PATH);
+        doAddEmptyImport(importPaths, methods);
 
         importPaths = importPaths.stream().sorted().collect(Collectors.toList());
         serviceParam.setImports(importPaths);
 
         return serviceParam;
+    }
+
+    private void doAddEmptyImport(List<String> importPaths, List<Method> methods) {
+        boolean bool = methods.stream().anyMatch(method -> Objects.isNull(method.getParameters()) || method.getParameters().length < 1);
+        if (bool) {
+            importPaths.add(Config.GRPC_EMPTY);
+        }
     }
 
     @Override

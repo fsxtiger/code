@@ -42,9 +42,16 @@ public class UpStreamConvertCodeGenerator extends UpStreamServiceCodeGenerator {
         List<String> addedImportPath = new ArrayList<>();
         for (MethodInfo methodInfo : methodInfos) {
             if (methodInfo.getName().equalsIgnoreCase(Config.PARAM_TO_MODEL) && StringUtils.isNotBlank(methodInfo.getReturnValue())) {
+                if (TYPE_MAP.containsKey(methodInfo.getReturnValue())) {
+                    continue;
+                }
                 addedImportPath.add(Config.IMPORT_GRPC_MODEL_PATH_PREFIX + methodInfo.getReturnValue());
             }
             if (methodInfo.getName().equalsIgnoreCase(Config.DTO_TO_VO) && StringUtils.isNotBlank(methodInfo.getParam())) {
+                String type = methodInfo.getParam().split(" ")[0];
+                if (TYPE_MAP.containsKey(type)) {
+                    continue;
+                }
                 addedImportPath.add(Config.IMPORT_GRPC_MODEL_PATH_PREFIX + methodInfo.getParam().split(" ")[0]);
             }
         }
@@ -80,6 +87,9 @@ public class UpStreamConvertCodeGenerator extends UpStreamServiceCodeGenerator {
 
     private MethodInfo parseReturnValue(String returnValue) {
         if (returnValue.equalsIgnoreCase("void")) {
+            return null;
+        }
+        if (TYPE_MAP.containsKey(returnValue)) {
             return null;
         }
         String angleContent = parseAngleContent(returnValue);

@@ -18,11 +18,19 @@ public class ${name}ServiceImpl implements ${name}Service {
     <#list methods as method>
     @Override
     public ${method.returnValue} ${method.name}(${method.param}) {
-        ${method.paramModel} ${method.paramModel?uncap_first} = ${uncapitalize_name}Convert.paramToModel(${method.param});
+    <#if method.param?? && method.param?has_content>
+        <#assign paramArray = method.param?split(" ")>
+            <#assign secondParam = "" />
+            <#if paramArray?size gt 1>
+                <#assign secondParam = paramArray[1]>
+            </#if>
+        ${method.paramModel} ${method.paramModel?uncap_first} = ${uncapitalize_name}Convert.paramToModel(${secondParam});
+    </#if>
     <#if method.returnValue != 'void'>
-        return remote${serviceName}Service.${method.name}(${method.paramModel});
+        ${method.paramDTO} ${method.paramDTO?uncap_first} = remote${serviceName}Service.${method.name}(${method.paramModel?uncap_first});
+        return ${uncapitalize_name}Convert.dtoToVO(${method.paramDTO?uncap_first});
     <#else>
-        remote${serviceName}Service.${method.name}(${method.paramModel})
+        remote${serviceName}Service.${method.name}(${method.paramModel?uncap_first});
     </#if>
     }
     </#list>
