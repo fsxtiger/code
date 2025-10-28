@@ -14,6 +14,7 @@ public class MethodInfo {
     private String name;
     private String param;
     private String paramModel;
+    private String paramDTO;
 
     public MethodInfo() {
     }

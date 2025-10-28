@@ -6,9 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="d4f73e0c-a781-4382-b69f-dd9bedb7249c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-generator/src/main/resources/templates/DownStreamModelProto.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/src/main/resources/templates/DownStreamModelProto.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/src/main/java/bo/MethodInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/src/main/java/bo/MethodInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/src/main/java/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/src/main/java/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/src/main/java/generator/UpStreamRemoteServiceImplCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/src/main/java/generator/UpStreamRemoteServiceImplCodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/src/main/java/generator/UpStreamServiceCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/src/main/java/generator/UpStreamServiceCodeGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code-generator/src/main/resources/templates/UpStreamRemoteServiceImpl.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/src/main/resources/templates/UpStreamRemoteServiceImpl.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code-generator/src/main/resources/templates/UpStreamServiceImpl.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/src/main/resources/templates/UpStreamServiceImpl.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/src/main/resources/templates/files/CompetitionConvert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/src/main/resources/templates/files/CompetitionModel.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/src/main/resources/templates/files/CompetitionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/src/main/resources/templates/files/CompetitionService.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/src/main/resources/templates/files/CompetitionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/src/main/resources/templates/files/CompetitionServie2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/src/main/resources/templates/files/RemoteComplexService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/src/main/resources/templates/files/RemoteComplexServiceImpl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,18 +156,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/shuoxuanfang/IDeaProject/private/code/code-generator/src/main/resources/templates",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2816092"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shuoxuanfang/IDeaProject/private/code/code-generator/src/main/resources/templates&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2816092&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/code-generator/src/main/resources/templates" />
@@ -169,7 +180,7 @@
       <recent name="$PROJECT_DIR$/code-generator/src/main/resources/templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sign">
+  <component name="RunManager" selected="Maven.code-generator [compile]">
     <configuration name="Blockchain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Blockchain" />
       <module name="code-generator" />
@@ -229,9 +240,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Maven.code-generator [compile]" />
         <item itemvalue="Application.Sign" />
         <item itemvalue="Application.FreemakerGenerator" />
-        <item itemvalue="Maven.code-generator [compile]" />
         <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.Blockchain" />
       </list>

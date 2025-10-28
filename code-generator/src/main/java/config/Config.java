@@ -10,10 +10,11 @@ import java.util.List;
  * @Date 2025/4/14
  **/
 public class Config {
-    public static final String NAME = "Auth";
-    public static final String SERVICE_PATH = "cn.golingo.glep.admin.provider.service.";
+    public static final String NAME = "User";
+    public static final String SERVICE_PATH = "cn.golingo.glep.education.provider.service.";
     public static final String SERVICE_FULL_PATH = SERVICE_PATH + Config.NAME + "Service";
-    public static final String REMOTE_SERVICE_PATH = "cn.golingo.glep.admin.provider.remote.";
+
+    public static final String REMOTE_SERVICE_PATH = "cn.golingo.glep.education.provider.remote.";
     public static final String DOWN_STREAM_SERVICE_NAME = "User";
 
     public static final String REMOTE_SERVICE_FULL_PATH = REMOTE_SERVICE_PATH + "Remote" + DOWN_STREAM_SERVICE_NAME + "Service";
@@ -28,11 +29,13 @@ public class Config {
     public static final List<String> MAP_STRUCT_IMPORTS = Lists.newArrayList(
             "org.mapstruct.*"
     );
-    public static final String CLASS_NAME = "cn.golingo.glep.admin.controller.audit.AuditTalentController";
+    public static final String CLASS_NAME = "cn.golingo.glep.education.controller.common.UserController";
 
     public static final String FULL_GRPC_PATH = "cn.golingo.glep." + StringUtils.uncapitalize(Config.DOWN_STREAM_SERVICE_NAME) + ".grpc.client.service." + Config.NAME + "ServiceGrpc";
     public static final String FULL_CONVERT_PATH = "cn.golingo.glep.education.provider.convert." + Config.NAME + "Convert";
-    public static final List<String> METHODS = Lists.newArrayList();
+
+    public static final String GRPC_EMPTY_PATH = "com.google.protobuf.Empty";
+    public static final List<String> METHODS = Lists.newArrayList("teacherEntry", "orgEntry", "entryDetail");
 
     public static final String IMPORT_GRPC_MODEL_PATH_PREFIX = "cn.golingo.glep."
             + StringUtils.uncapitalize(Config.DOWN_STREAM_SERVICE_NAME)

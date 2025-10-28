@@ -71,13 +71,24 @@ public class UpStreamServiceCodeGenerator extends AbstractCodeGenerator<ServiceP
         methodInfo.setReturnValue(returnValue);
         methodInfo.setParam(paramString);
         methodInfo.setParamModel(getParamModelName(paramString, methodName));
+        methodInfo.setParamDTO(getParamDTOName(paramString, methodName));
 
         return methodInfo;
     }
 
+    protected String getParamDTOName(String param, String methodName) {
+        String className = param.split(" ")[0];
+        if (TYPE_MAP.containsKey(className) || StringUtils.isBlank(param)) {
+            // 是基本类型，走另外的方式
+            return WordUtils.capitalize(methodName) + "DTO";
+        } else {
+            return className.replace("Param", "DTO");
+        }
+    }
+
     protected String getParamModelName(String param, String methodName) {
         String className = param.split(" ")[0];
-        if (TYPE_MAP.containsKey(className)) {
+        if (TYPE_MAP.containsKey(className) || StringUtils.isBlank(param)) {
             // 是基本类型，走另外的方式
             return WordUtils.capitalize(methodName) + "Model";
         } else {
